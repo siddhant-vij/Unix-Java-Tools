@@ -1,5 +1,5 @@
 package com.unixtools.core;
 
-public class Command {
-  
+public interface Command {
+  void execute(String[] args);
 }
