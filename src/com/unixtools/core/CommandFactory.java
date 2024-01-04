@@ -11,6 +11,12 @@ public class CommandFactory {
         return new MkdirCommand();
       case "rmdir":
         return new RmdirCommand();
+      case "cp":
+        return new CpCommand();
+      case "rm":
+        return new RmCommand();
+      case "mv":
+        return new MvCommand();
       default:
         return null;
     }
