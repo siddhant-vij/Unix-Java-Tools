@@ -19,6 +19,8 @@ public class CommandFactory {
         return new MvCommand();
       case "touch":
         return new TouchCommand();
+      case "pwd":
+        return new PwdCommand();
       default:
         return null;
     }
