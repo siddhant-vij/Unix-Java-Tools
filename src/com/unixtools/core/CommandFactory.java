@@ -25,6 +25,8 @@ public class CommandFactory {
         return new DfCommand();
       case "du":
         return new DuCommand();
+      case "find":
+        return new FindCommand();
       default:
         return null;
     }
