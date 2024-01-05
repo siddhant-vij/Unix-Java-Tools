@@ -21,6 +21,10 @@ public class CommandFactory {
         return new TouchCommand();
       case "pwd":
         return new PwdCommand();
+      case "df":
+        return new DfCommand();
+      case "du":
+        return new DuCommand();
       default:
         return null;
     }
