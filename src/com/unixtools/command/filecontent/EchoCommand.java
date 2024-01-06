@@ -1,5 +1,5 @@
 package com.unixtools.command.filecontent;
 
-public class SedCommand {
+public class EchoCommand {
   
 }
