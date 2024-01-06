@@ -32,8 +32,12 @@ Java-based project aimed at simulating UNIX command line tools on a Windows envi
     - `wc`: Word, line, character, and byte count.
     - `sed`: Stream editor for filtering and transforming text.
     - `awk`: Pattern scanning and processing language.
-- **System Information and Management**:
+    - `tr`: Translate or delete characters.
+    - `cut`: Extract columns from files.
+    - `diff`: Compare files line by line.
+- **Networking Capabilities**:
     - `ping`: Check network connectivity to a server.
+    - `curl`: Retrieve web pages and files.
 - **Utility Commands**:
     - `echo`: Display a line of text.
     - `date`: Display or set the system date and time.
