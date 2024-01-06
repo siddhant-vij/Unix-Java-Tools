@@ -30,17 +30,16 @@ Java-based project aimed at simulating UNIX command line tools on a Windows envi
     - `sort`: Sort lines of text files.
     - `uniq`: Report or omit repeated lines.
     - `wc`: Word, line, character, and byte count.
-    - `sed`: Stream editor for filtering and transforming text.
-    - `awk`: Pattern scanning and processing language.
     - `tr`: Translate or delete characters.
     - `cut`: Extract columns from files.
     - `diff`: Compare files line by line.
+    - `echo`: Display a line of text.
 - **Networking Capabilities**:
     - `ping`: Check network connectivity to a server.
     - `curl`: Retrieve web pages and files.
-- **Utility Commands**:
-    - `echo`: Display a line of text.
-    - `date`: Display or set the system date and time.
+    - `wget`: Download web pages and files.
+    - `ifconfig`: Display network interface information.
+    - `traceroute`: Trace a route through the network.
 
 ## Contributing
 
@@ -63,7 +62,10 @@ Contributions are what make the open-source community such an amazing place to l
 
 ## Future Improvements
 
-- **Other Unix Commands**: Add more Unix commands to the project.
+- **Other Unix Commands**: Add the following to the project:
+    - `sed`: Stream editor for filtering and transforming text.
+    - `awk`: Pattern scanning and processing language.
+    - and other advanced Unix commands.
 - **GUI Integration**: Develop a Graphical User Interface for the command-line tools for enhanced user interaction.
 - **Networking Capabilities**: Extend the project to include network-related commands for advanced operations.
 - **Cross-Platform Compatibility**: Enhance compatibility with other operating systems, including full UNIX and Linux support.
