@@ -1,6 +1,7 @@
 package com.unixtools.core;
 
 import com.unixtools.command.filemanagement.*;
+import com.unixtools.command.filecontent.*;
 
 public class CommandFactory {
   public static Command getCommand(String commandName) {
@@ -27,6 +28,8 @@ public class CommandFactory {
         return new DuCommand();
       case "find":
         return new FindCommand();
+      case "echo":
+        return new EchoCommand();
       default:
         return null;
     }
