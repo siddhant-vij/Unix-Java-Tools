@@ -2,6 +2,7 @@ package com.unixtools.core;
 
 import com.unixtools.command.filemanagement.*;
 import com.unixtools.command.filecontent.*;
+import com.unixtools.command.networking.*;
 
 public class CommandFactory {
   public static Command getCommand(String commandName) {
@@ -30,6 +31,8 @@ public class CommandFactory {
         return new FindCommand();
       case "echo":
         return new EchoCommand();
+      case "ping":
+        return new PingCommand();
       default:
         return null;
     }
