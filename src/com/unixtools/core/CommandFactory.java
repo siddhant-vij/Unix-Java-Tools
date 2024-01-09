@@ -33,6 +33,8 @@ public class CommandFactory {
         return new EchoCommand();
       case "ping":
         return new PingCommand();
+      case "curl":
+        return new CurlCommand();
       default:
         return null;
     }
