@@ -37,6 +37,8 @@ public class CommandFactory {
         return new CurlCommand();
       case "wget":
         return new WgetCommand();
+      case "ifconfig":
+        return new IfconfigCommand();
       default:
         return null;
     }
