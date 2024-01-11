@@ -7,6 +7,9 @@ import com.unixtools.command.networking.*;
 public class CommandFactory {
   public static Command getCommand(String commandName) {
     switch (commandName) {
+      /*
+       * File and Directory Management
+       */
       case "ls":
         return new LsCommand();
       case "mkdir":
@@ -29,8 +32,9 @@ public class CommandFactory {
         return new DuCommand();
       case "find":
         return new FindCommand();
-      case "echo":
-        return new EchoCommand();
+      /*
+       * Networking Capabilities
+       */
       case "ping":
         return new PingCommand();
       case "curl":
@@ -39,6 +43,13 @@ public class CommandFactory {
         return new WgetCommand();
       case "ifconfig":
         return new IfconfigCommand();
+      case "traceroute":
+        return new TracerouteCommand();
+      /*
+       * File Content Manipulation
+       */
+      case "echo":
+        return new EchoCommand();
       default:
         return null;
     }
