@@ -35,6 +35,8 @@ public class CommandFactory {
         return new PingCommand();
       case "curl":
         return new CurlCommand();
+      case "wget":
+        return new WgetCommand();
       default:
         return null;
     }
