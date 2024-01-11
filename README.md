@@ -22,6 +22,12 @@ Java-based project aimed at simulating UNIX command line tools on a Windows envi
     - `df`: Report file system disk space usage.
     - `du`: Estimate file space usage.
     - `pwd`: Print the current working directory.
+- **Networking Capabilities**:
+    - `ping`: Check network connectivity to a server.
+    - `curl`: Retrieve web pages and files.
+    - `wget`: Download web pages and files.
+    - `ifconfig`: Display network interface information.
+    - `traceroute`: Trace a route through the network.
 - **File Content Manipulation**:
     - `cat`: Concatenate and display file content.
     - `head`: Output the first part of files.
@@ -34,12 +40,6 @@ Java-based project aimed at simulating UNIX command line tools on a Windows envi
     - `cut`: Extract columns from files.
     - `diff`: Compare files line by line.
     - `echo`: Display a line of text.
-- **Networking Capabilities**:
-    - `ping`: Check network connectivity to a server.
-    - `curl`: Retrieve web pages and files.
-    - `wget`: Download web pages and files.
-    - `ifconfig`: Display network interface information.
-    - `traceroute`: Trace a route through the network.
 
 ## Contributing
 
