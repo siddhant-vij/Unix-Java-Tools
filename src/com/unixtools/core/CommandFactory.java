@@ -1,8 +1,8 @@
 package com.unixtools.core;
 
 import com.unixtools.command.filemanagement.*;
-import com.unixtools.command.filecontent.*;
 import com.unixtools.command.networking.*;
+import com.unixtools.command.filecontent.*;
 
 public class CommandFactory {
   public static Command getCommand(String commandName) {
@@ -52,6 +52,8 @@ public class CommandFactory {
         return new EchoCommand();
       case "cat":
         return new CatCommand();
+      case "head":
+        return new HeadCommand();
       default:
         return null;
     }
