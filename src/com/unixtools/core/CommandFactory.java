@@ -50,6 +50,8 @@ public class CommandFactory {
        */
       case "echo":
         return new EchoCommand();
+      case "cat":
+        return new CatCommand();
       default:
         return null;
     }
