@@ -54,6 +54,8 @@ public class CommandFactory {
         return new CatCommand();
       case "head":
         return new HeadCommand();
+      case "tail":
+        return new TailCommand();
       default:
         return null;
     }
