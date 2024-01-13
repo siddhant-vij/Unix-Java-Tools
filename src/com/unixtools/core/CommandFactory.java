@@ -56,6 +56,8 @@ public class CommandFactory {
         return new HeadCommand();
       case "tail":
         return new TailCommand();
+      case "grep":
+        return new GrepCommand();
       default:
         return null;
     }
