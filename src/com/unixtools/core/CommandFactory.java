@@ -60,6 +60,8 @@ public class CommandFactory {
         return new GrepCommand();
       case "sort":
         return new SortCommand();
+      case "uniq":
+        return new UniqCommand();
       default:
         return null;
     }
