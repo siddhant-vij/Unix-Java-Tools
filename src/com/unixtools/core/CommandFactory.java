@@ -58,6 +58,8 @@ public class CommandFactory {
         return new TailCommand();
       case "grep":
         return new GrepCommand();
+      case "sort":
+        return new SortCommand();
       default:
         return null;
     }
