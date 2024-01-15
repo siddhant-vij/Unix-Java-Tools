@@ -62,6 +62,8 @@ public class CommandFactory {
         return new SortCommand();
       case "uniq":
         return new UniqCommand();
+      case "wc":
+        return new WcCommand();
       default:
         return null;
     }
