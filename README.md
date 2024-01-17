@@ -37,8 +37,6 @@ Java-based project aimed at simulating UNIX command line tools on a Windows envi
     - `uniq`: Report or omit repeated lines.
     - `wc`: Word, line, character, and byte count.
     - `tr`: Translate or delete characters.
-    - `cut`: Extract columns from files.
-    - `diff`: Compare files line by line.
     - `echo`: Display a line of text.
 
 ## Contributing
@@ -63,6 +61,8 @@ Contributions are what make the open-source community such an amazing place to l
 ## Future Improvements
 
 - **Other Unix Commands**: Add the following to the project:
+    - `cut`: Extract columns from files.
+    - `diff`: Compare files line by line.
     - `sed`: Stream editor for filtering and transforming text.
     - `awk`: Pattern scanning and processing language.
     - and other advanced Unix commands.
