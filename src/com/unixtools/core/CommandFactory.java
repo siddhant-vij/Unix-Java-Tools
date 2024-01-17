@@ -64,6 +64,8 @@ public class CommandFactory {
         return new UniqCommand();
       case "wc":
         return new WcCommand();
+      case "tr":
+        return new TrCommand();
       default:
         return null;
     }
